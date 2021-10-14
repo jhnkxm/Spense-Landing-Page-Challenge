@@ -1,0 +1,51 @@
+:root {
+  /* Color */
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* Font Size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font Weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+  cursor: default;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+}
+
+/* Header */
+
+#header {
+  color: var(--color-white);
+  background-color: var(--color-black);
+  text-align: center;
+}
+
+#header p {
+  margin: 0;
+  padding: 5px;
+}
