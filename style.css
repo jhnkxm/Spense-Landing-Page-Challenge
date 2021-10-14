@@ -159,3 +159,18 @@ h1 {
   width: 75%;
   height: 85%;
 }
+
+/* Logo */
+#logo {
+  padding: 20px 70px;
+}
+
+.logo__bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__box img {
+  width: 100%;
+  padding: 20px;
+}
