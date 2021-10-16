@@ -229,3 +229,21 @@ h1 {
 .main__bottomDescription {
   padding: 40px;
 }
+
+/* Footer */
+#footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.footer__item h4 {
+  margin-bottom: 0;
+}
+
+.footer__item p,
+li {
+  color: var(--color-gray);
+}
